@@ -25,7 +25,7 @@ func (r Renderer) Render(w io.Writer, name string, data interface{}, c echo.Cont
 		t, err = pongo2.FromCache(name)
 	}
 	// Add some static values
-	ctx["version_number"] = "v0.0.1-beta"
+	ctx["version_number"] = "v3.0"
 	if err != nil {
 		return err
 	}
