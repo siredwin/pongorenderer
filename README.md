@@ -6,7 +6,7 @@ Minimal Pongo2 renderer for Echo that just works.
 
 `go get "github.com/siredwin/pongorenderer/renderer"`
 
-The next step is define renderer and call it
+The next step is to define renderer and call it
 
 ```go
 func main() {
