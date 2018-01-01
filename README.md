@@ -10,7 +10,7 @@ The next step is to define renderer and call it
 
 ```go
 func main() {
-  MainRenderer = renderer.Renderer{Debug:true}
+  MainRenderer := renderer.Renderer{Debug:true}
   
   // Echo instance
   e := echo.New()
